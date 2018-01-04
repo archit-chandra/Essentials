@@ -1,0 +1,58 @@
+Ctrl + Space => Auto-suggestion
+Ctrl + 1     => Further Actions 
+
+Ctrl + Shift + R => Open any resource
+Ctrl + Shift + T => Open any class (including dependencies)
+
+Ctrl + / => Comment
+Ctrl + \ => Uncomment
+
+F3 => Declaration
+
+F4, Ctrl + T => Type Hierarchy
+
+Ctrl + N => New Class
+
+Ctrl + M => Maximise/Minimise
+
+Alt + ^ => Move line up
+Alt +   => Move line down
+
+Ctrl + L => Go to line number
+
+Ctrl + D => Delete line
+
+Ctrl + Q => Last edit position
+
+Ctrl + O => Shows outline of class
+
+Ctrl + Shift + L => All shortcuts
+
+F5 => Step into
+F6 => Step over
+F8 => Resume
+
+
+Alt + Shift + L => Extract local variable
+Alt + Shift + M => Extract method
+Alt + Shift + R => Rename all occurrences (variable, method, class)
+
+Alt + Shift + I => Inline
+
+
+Getters & Setters
+Constructors
+Override methods (toString(), equals(), hashCode())
+
+Ctrl + Shift + F => Format Code
+
+
+Working Sets => Project grouping (Project Explorer view)
+Plugins => About Eclipse >> Installed Details
+Templates => Pre-defined template code for faster programming (sysout -> System.out.println())
+
+
+
+
+
+
