@@ -1,0 +1,5 @@
+Ctrl + H       => Type Hierarchy
+Ctrl + Alt + H => Call Hierarchy
+
+psvm           => main() method
+
