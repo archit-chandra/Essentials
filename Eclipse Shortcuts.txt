@@ -1,5 +1,5 @@
 Ctrl + Space => Auto-suggestion
-Ctrl + 1     => Further Actions 
+Ctrl + 1     => Further Actions (hints for error solving)
 
 Ctrl + Shift + R => Open any resource
 Ctrl + Shift + T => Open any class (including dependencies)
