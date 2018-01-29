@@ -13,6 +13,8 @@ Ctrl + F          => Search in file
 Ctrl + Shift + F  => Find in path
 
 
+Alt + 7           => Class structure window (Outline)
+Ctrl + F12        => Class structure popup (Outline)
 
 Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override + others)
 (Alt + Fn + Enter)
