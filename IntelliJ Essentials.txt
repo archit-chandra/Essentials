@@ -9,7 +9,7 @@ Ctrl + Alt + H    => Call Hierarchy
 
 psvm              => main() method
 
-Ctrl + F          => Search in workspace
+Ctrl + F          => Search in file
 Ctrl + Shift + F  => Find in path
 
 
