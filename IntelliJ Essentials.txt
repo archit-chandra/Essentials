@@ -1,17 +1,20 @@
-Ctrl + Space   => Auto suggestion
-Alt + Enter    => Further Action (hints for error solving)
+Ctrl + Space      => Auto suggestion
+Alt + Enter       => Further Action (hints for error solving)
 
-Ctrl + Shift + N => Open any resource
-Ctrl + N         => Open any class
+Ctrl + Shift + N  => Open any resource
+Ctrl + N          => Open any class
 
-Ctrl + H       => Type Hierarchy
-Ctrl + Alt + H => Call Hierarchy
+Ctrl + H          => Type Hierarchy
+Ctrl + Alt + H    => Call Hierarchy
 
-psvm           => main() method
+psvm              => main() method
+
+Ctrl + F          => Search in workspace
+Ctrl + Shift + F  => Find in path
 
 
 
-Alt + Insert   => Code Generation (Constructors + Getters/Setters + Override + others)
+Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override + others)
 (Alt + Fn + Enter)
 
 
