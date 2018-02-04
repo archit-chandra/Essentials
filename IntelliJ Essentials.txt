@@ -1,5 +1,6 @@
-Ctrl + Space      => Auto suggestion
-Alt + Enter       => Further Action (hints for error solving)
+Ctrl + Space         => Auto suggestion (Basic code completion)
+Ctrl + Shift + Space => Auto suggestion (Smart code completion)
+Alt + Enter          => Further Action (hints for error solving)
 
 Ctrl + Shift + N  => Open any resource
 Ctrl + N          => Open any class
@@ -18,5 +19,9 @@ Ctrl + F12        => Class structure popup (Outline)
 
 Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override + others)
 (Alt + Fn + Enter)
+
+
+Ctrl + D          => Duplicate line
+Ctrl + Y          => Delete line
 
 
