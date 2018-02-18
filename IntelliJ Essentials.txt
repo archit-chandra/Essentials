@@ -20,8 +20,13 @@ Ctrl + F12        => Class structure popup (Outline)
 Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override + others)
 (Alt + Fn + Enter)
 
+Ctrl + O          => Override methods
+Ctrl + I          => Implement methods
 
 Ctrl + D          => Duplicate line
 Ctrl + Y          => Delete line
+
+Alt + Shift + Up  => Move Line Up
+Alt + Shift + Down=> Move Line Down
 
 
