@@ -29,4 +29,7 @@ Ctrl + Y          => Delete line
 Alt + Shift + Up  => Move Line Up
 Alt + Shift + Down=> Move Line Down
 
+Ctrl + Q          => To see JavaDoc
+/** + Enter       => To create JavaDoc
+
 
