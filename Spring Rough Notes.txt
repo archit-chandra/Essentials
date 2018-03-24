@@ -1,0 +1,40 @@
+Spring Container functions:
+1. Create & manage objects (Inversion of Control)
+2. Inject object's dependencies (Dependency Injection)
+
+Inversion of Control:
+-----------------------
+The approach of outsourcing of constructing & managing the objects
+
+
+Spring Development process:
+1. Configure Spring beans (in xml/ @Bean annotation)
+2. Create Spring container = ApplicationContext (xml, annotation, source code) - many implementations
+3. Retrieve beans from Spring containers
+
+-Load the Spring configuration file (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml"))
+-Retrieve the bean from Spring container (Coach coach = context.getBean("myCoach"))
+-Call methods on the bean
+-Close the context
+ 
+ 
+Dependency Injection:
+-----------------------
+The approach of outsourcing of construction & injection of the objects to an external entity.
+(Car factory -> Object factory)
+
+Coach provides:
+1. daily workout for different coaches
+2. also provides daily fortunes with the help of FortuneService => Coach depends upon FortuneService (dependency)
+
+Injection Types:
+    1. Constructor injection
+	        a. Define dependency interface and class
+			b. Create constructor for injection
+			c. Configure dependency injection in Spring config file.
+	2. Setter injection
+	        a. Create setter methods for injection
+			b. Configure dependency injection in Spring config file.
+	3. Autowiring (later)
+	
+	
