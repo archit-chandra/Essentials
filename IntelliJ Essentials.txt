@@ -2,8 +2,6 @@ Ctrl + Space         => Auto suggestion (Basic code completion)
 Ctrl + Shift + Space => Auto suggestion (Smart code completion)
 Alt + Enter          => Further Action (hints for error solving)
 
-Ctrl + Shift + N  => Open any resource
-Ctrl + N          => Open any class
 
 Ctrl + H          => Type Hierarchy
 Ctrl + Alt + H    => Call Hierarchy
@@ -23,8 +21,7 @@ Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override 
 Ctrl + O          => Override methods
 Ctrl + I          => Implement methods
 
-Ctrl + D          => Duplicate line
-Ctrl + Y          => Delete line
+
 
 Alt + Shift + Up  => Move Line Up
 Alt + Shift + Down=> Move Line Down
@@ -32,4 +29,110 @@ Alt + Shift + Down=> Move Line Down
 Ctrl + Q          => To see JavaDoc
 /** + Enter       => To create JavaDoc
 
+Ctrl + Shift + Backspace => Go to the last edit location
 
+Ctrl              => Navigate to decalaration of method
+Ctrl + Alt + B    => Navigate to implementation of Method
+Ctrl + Alt + Left => Navigate back to the calling method
+
+
+
+
+Navigating between the text
+---------------------------------------------------------------------------------
+Ctrl + Right    => Move one word to the right
+Ctrl + Left     => Move one word to the left
+
+End   => Move to end of the line
+Home  => Move to beginning of the line
+
+Ctrl + End  => Move to the end of the file
+Ctrl + Home => Move to the beginning of the file
+
+
+
+
+Select Characters, Words, Line
+---------------------------------------------------------------------------------
+Shift + Right/Left           => Select one character at a time
+Shift +  Ctrl + Right/Left   => Select one word at a time 
+Shift + Home                 => Select everything from cursor to the beginning of the current line
+Shift + End                  => Select everything from cursor to the end of the current line
+
+
+Ctrl + W         => Extend selection (context-aware)
+Ctrl + Shift + W => Shrink selection (context-aware)
+
+
+
+
+Moving line & statement
+---------------------------------------------------------------------------------
+Shift + Alt + Up  => Move line up
+Shift + Alt + Down=> Move line down
+
+Shift + Ctrl + Up   => Move statement/method up
+Shift + Ctrl + Down => Move statement/method down
+
+
+
+
+Duplicate & Delete Line
+---------------------------------------------------------------------------------
+Ctrl + D    => Duplicate line
+Ctrl + Y    => Delete line
+
+
+
+
+View Parameter Information
+---------------------------------------------------------------------------------
+Ctrl + P => Works for constructors/methods
+
+
+
+
+Comment & Uncomment
+---------------------------------------------------------------------------------
+Ctrl + /
+Ctrl + Shift+ + /
+
+
+
+
+Folding & Unfolding Code
+---------------------------------------------------------------------------------
+Ctrl + NumPad+ => Expand the code block
+Ctrl + NumPad- => Fold the code block
+
+
+
+Navigating to resource
+---------------------------------------------------------------------------------
+Ctrl + Shift + N  => Open any resource
+Ctrl + N          => Open any class
+
+Shift(2)          => Search everywhere
+
+-Camel humps
+-Wildcards
+- name/ -> for folders
+
+
+
+Navigating to method
+---------------------------------------------------------------------------------
+Ctrl + Shift + Alt + N  => Gives the method
+
+-Classname.method also possible
+
+
+
+
+
+Others
+---------------------------------------------------------------------------------
+Ctrl + Shift + A => Open Setting Action
+
+Ctrl + E         => Recent Tabs
+Ctrl + Shift + E => Recent edited file
