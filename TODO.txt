@@ -1,3 +1,12 @@
 Collections
 Iterator
 StringsUtil
+
+Rest
+Soap
+
+Seialization
+
+Use of:
+    Wireshark
+    TCPMon
