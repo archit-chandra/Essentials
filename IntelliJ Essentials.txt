@@ -1,109 +1,81 @@
+Code Completion
+---------------------------------------------------------------------------------
 Ctrl + Space         => Auto suggestion (Basic code completion)
+                            -> (*2) - static method suggestion list
+
 Ctrl + Shift + Space => Auto suggestion (Smart code completion)
+                            -> more useful
+	                        -> after new keyword
+	                        -> in the list of parameter call
+						    -> in return statements
+							-> (*2) - static expression suggestion list
+							        - collection, lists, arrays
+								   
+Ctrl + J             => Post-fix completion
+                            -> nn/null : checks expression to be null
+                            -> notnull : checks expression to be not null
+                            -> synchronized : produces synchronization statement
+                            -> try : inserts statement in try-catch block
+                            -> for : iterates over enumerable collection
+                            -> fori : iterates with index over collection
+                            -> forr : iterates with index in reverse order
+
+
 Alt + Enter          => Further Action (hints for error solving)
+                            -> static import
 
 
+							
+Code Generation
+---------------------------------------------------------------------------------
+Alt + Insert => getters / setters
+                constructors
+                toString()
+                hashCode() / equals()
+                override method
+				
+				test method stub : @Test
+				setup method stub : @Before
+				tearDown method stub :
+				
+Alt + Enter  => Further Action (hints for error solving + Generate class/interfaces/methods)
+                    -> Language Injection (Json, Properties, etc)
+					
+Ctrl + O     => Override methods
+Ctrl + I     => Implement methods
+
+
+psvm         => main() method
+
+
+
+Build + Compilation Errors (Troubleshooting)
+---------------------------------------------------------------------------------
+Ctrl + F9    => Build the application
+
+F2           => Moves to the next compilation error
+Shift + F2   => Moves to the previous compilation error
+
+Alt + Enter  => Further Action (hints for error solving)
+
+
+Class Investigation
+---------------------------------------------------------------------------------
 Ctrl + H          => Type Hierarchy
-Ctrl + Alt + H    => Call Hierarchy
-
-psvm              => main() method
-
-Ctrl + F          => Search in file
-Ctrl + Shift + F  => Find in path
-
-
 Alt + 7           => Class structure window (Outline)
 Ctrl + F12        => Class structure popup (Outline)
-
-Alt + Insert      => Code Generation (Constructors + Getters/Setters + Override + others)
-(Alt + Fn + Enter)
-
-Ctrl + O          => Override methods
-Ctrl + I          => Implement methods
+Ctrl + Alt + F7  => SHow the usages
 
 
 
-Alt + Shift + Up  => Move Line Up
-Alt + Shift + Down=> Move Line Down
-
-Ctrl + Q          => To see JavaDoc
-/** + Enter       => To create JavaDoc
-
-Ctrl + Shift + Backspace => Go to the last edit location
-
-Ctrl              => Navigate to decalaration of method
-Ctrl + Alt + B    => Navigate to implementation of Method
-Ctrl + Alt + Left => Navigate back to the calling method
-
-
-
-
-Navigating between the text
+Method Investigation
 ---------------------------------------------------------------------------------
-Ctrl + Right    => Move one word to the right
-Ctrl + Left     => Move one word to the left
+Ctrl + Alt + H    => Call Hierarchy
+Ctrl              => Method Declaration
+Ctrl + Alt + B    => Method Implementation
+Ctrl + Alt + Left => Navigate back to the calling method    (** Do not use it)
 
-End   => Move to end of the line
-Home  => Move to beginning of the line
-
-Ctrl + End  => Move to the end of the file
-Ctrl + Home => Move to the beginning of the file
-
-
-
-
-Select Characters, Words, Line
----------------------------------------------------------------------------------
-Shift + Right/Left           => Select one character at a time
-Shift +  Ctrl + Right/Left   => Select one word at a time 
-Shift + Home                 => Select everything from cursor to the beginning of the current line
-Shift + End                  => Select everything from cursor to the end of the current line
-
-
-Ctrl + W         => Extend selection (context-aware)
-Ctrl + Shift + W => Shrink selection (context-aware)
-
-
-
-
-Moving line & statement
----------------------------------------------------------------------------------
-Shift + Alt + Up  => Move line up
-Shift + Alt + Down=> Move line down
-
-Shift + Ctrl + Up   => Move statement/method up
-Shift + Ctrl + Down => Move statement/method down
-
-
-
-
-Duplicate & Delete Line
----------------------------------------------------------------------------------
-Ctrl + D    => Duplicate line
-Ctrl + Y    => Delete line
-
-
-
-
-View Parameter Information
----------------------------------------------------------------------------------
-Ctrl + P => Works for constructors/methods
-
-
-
-
-Comment & Uncomment
----------------------------------------------------------------------------------
-Ctrl + /
-Ctrl + Shift+ + /
-
-
-
-
-Folding & Unfolding Code
----------------------------------------------------------------------------------
-Ctrl + NumPad+ => Expand the code block
-Ctrl + NumPad- => Fold the code block
+Ctrl + Alt + F7  => SHow the usages
 
 
 
@@ -118,6 +90,112 @@ Shift(2)          => Search everywhere
 -Wildcards
 - name/ -> for folders
 
+Ctrl + E         => Recent Tabs
+Ctrl + Shift + E => Recent edited file
+
+
+
+Searching
+---------------------------------------------------------------------------------
+Ctrl + F          => Search in file
+Ctrl + Shift + F  => Find in path
+
+
+
+Moving line & statement
+---------------------------------------------------------------------------------
+Alt + Shift + Up  => Move line up
+Alt + Shift + Down=> Move line down
+
+Ctrl + Shift + Up   => Move statement/method up
+Ctrl + Shift + Down => Move statement/method down
+
+
+
+Line : Duplicate, Delete, Comment, Uncomment
+---------------------------------------------------------------------------------
+Ctrl + D    => Duplicate line
+Ctrl + Y    => Delete line
+
+Ctrl + /
+Ctrl + Shift+ + /
+
+
+
+Version Control System (VCS)
+---------------------------------------------------------------------------------
+Ctrl + K          => Open Commit Dialog box
+
+Ctrl + D          => See the difference view for a file
+
+Ctrl + Alt + Z    => Revert Changes for a file
+
+Alt + Back Quote  => VCS operations popup
+                         - annotations (who and in which commit this change was made)
+
+						 
+						 
+Navigation :  between text
+---------------------------------------------------------------------------------
+Ctrl + Right             => Move one word to the right
+Ctrl + Left              => Move one word to the left
+
+Home                     => Move to beginning of the line
+End                      => Move to end of the line
+
+Ctrl + Home              => Move to the beginning of the file
+Ctrl + End               => Move to the end of the file
+
+Page Up                  => Scroll up
+Page Down                => Scroll down
+
+
+Ctrl + G                 => Go to line number
+Ctrl + Shift + Backspace => Go to the last edit location
+
+
+
+Selection :  Characters, Words, Line
+---------------------------------------------------------------------------------
+Shift + Right/Left           => Select one character at a time
+
+Shift +  Ctrl + Right/Left   => Select one word at a time 
+
+Shift + Home                 => Select everything from cursor to the beginning of the current line
+Shift + End                  => Select everything from cursor to the end of the current line
+
+Ctrl + W         => Extend selection (context-aware)
+Ctrl + Shift + W => Shrink selection (context-aware)
+
+
+
+Others (Useful)
+---------------------------------------------------------------------------------
+Ctrl + Shift + A  => Open Setting Action
+
+Ctrl + Q          => To see JavaDoc
+/** + Enter       => To create JavaDoc
+
+Ctrl + P => View Parameter Information : Works for constructors/methods
+
+
+
+TO DO
+---------------------------------------------------------------------------------
+Extracting of Variable, Method
+Ctrl + Alt + V
+Ctrl + Alt + F
+Ctrl + Alt + M
+
+Shift + F6 => To rename the variable name (refactored)
+
+
+
+Folding & Unfolding Code
+---------------------------------------------------------------------------------
+Ctrl + NumPad+ => Expand the code block
+Ctrl + NumPad- => Fold the code block
+
 
 
 Navigating to method
@@ -125,14 +203,3 @@ Navigating to method
 Ctrl + Shift + Alt + N  => Gives the method
 
 -Classname.method also possible
-
-
-
-
-
-Others
----------------------------------------------------------------------------------
-Ctrl + Shift + A => Open Setting Action
-
-Ctrl + E         => Recent Tabs
-Ctrl + Shift + E => Recent edited file
