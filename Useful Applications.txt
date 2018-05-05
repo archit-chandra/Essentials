@@ -25,6 +25,8 @@ TortoiseGIT
 Mercurial
 TortoiseHg
 
++ KDiff3
+
 
 Web-Based Service
 ================================================================
