@@ -1,0 +1,71 @@
+Spring Framework Concepts
+==========================================================
+
+Spring Container functions:
+1. Create & manage objects (Inversion of Control)
+2. Inject object's dependencies (Dependency Injection)
+
+Inversion of Control(IOC):
+---------------------------
+The approach of outsourcing of constructing & managing the objects
+It refers to the runtime environment of your code.
+
+
+Spring Development process:
+1. Configure Spring beans (in xml/ @Bean annotation)
+2. Create Spring container = ApplicationContext (xml, annotation, source code) - (many implementations available)
+3. Retrieve beans from Spring containers
+
+-Load the Spring configuration file 
+    (ClassPathXmlApplicationContext context = new  ClassPathXmlApplicationContext("applicationContext.xml");)
+	(AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);)
+-Retrieve the bean from Spring container (Coach coach = context.getBean("myCoach", Coach.class))
+-Call methods on the bean
+-Close the context (context.close())
+
+
+Dependency Injection(DI):
+--------------------------
+The approach of outsourcing of construction & injection of the objects to an external entity.
+(Car factory = Object factory in Spring)
+
+In DI, needed dependency is injected by another object.
+The class being injected has no responsibility in instantiating the object being injected.
+
+DI refers to the composition of your classes.
+
+Eg.
+Coach provides:
+1. daily workout for different coaches
+2. also provides daily fortunes with the help of FortuneService => Coach depends upon FortuneService (dependency)
+
+Injection Types:
+    1. Constructor injection (most preferable)
+	        a. Define dependency interface and class
+			b. Create constructor for injection
+			c. Configure dependency injection in Spring config file.
+	2. Setter injection (debatable)
+	        a. Create setter methods for injection
+			b. Configure dependency injection in Spring config file.
+	3. Autowiring
+	        a. Constructor level
+			b. Setter level
+			c. Field level
+
+
+
+**Injection of literal values is also done as setter injection (instead of ref=, use value=)
+
+Read values from the properties file
+    1. Create properties file
+	2. Load properties file in Spring configuration file 
+	       (<context:property-placeholder location="classpath:application.properties"/>)
+		   (@PropertySource("classpath:sport.properties"))
+	3. Reference values from properties file 
+	       (<property name="team" value="${foo.team}"/>)
+		   (@Value("${foo.email}"))
+		   
+		   
+Spring Profiles
+------------------------------
+
