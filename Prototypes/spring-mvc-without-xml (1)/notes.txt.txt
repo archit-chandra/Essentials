@@ -1,0 +1,6 @@
+https://dzone.com/articles/spring-mvc-and-java-based-configuration-1
+
+Spring 4.3.0
+Servlet 3
+
+http://localhost:8080//greet/archit
