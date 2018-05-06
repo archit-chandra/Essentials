@@ -1,21 +1,21 @@
 package com.example.app.config;
 
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
+public class WebServletConfiguration extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-public class WebServletConfiguration implements WebApplicationInitializer {
+    @Override
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
 
-    public void onStartup(ServletContext ctx) throws ServletException {
-        AnnotationConfigWebApplicationContext webCtx = new AnnotationConfigWebApplicationContext();
-        webCtx.register(SpringConfig.class);
-        webCtx.setServletContext(ctx);
-        ServletRegistration.Dynamic servlet = ctx.addServlet("dispatcher", new DispatcherServlet(webCtx));
-        servlet.setLoadOnStartup(1);
-        servlet.addMapping("/");
+    @Override
+    protected Class<?>[] getRootConfigClasses() {
+        return null;
+    }
+
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[]{SpringConfig.class};
     }
 }
