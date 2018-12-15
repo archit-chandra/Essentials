@@ -2,6 +2,8 @@ Collections
 Iterator
 StringsUtil
 
+Exception Handling
+
 Rest
 Soap
 
@@ -10,3 +12,7 @@ Seialization
 Use of:
     Wireshark
     TCPMon
+	
+	
+	
+Clustering
