@@ -12,7 +12,25 @@ Seialization
 Use of:
     Wireshark
     TCPMon
+	Mitmproxy
 	
 	
 	
 Clustering
+
+
+Roles, Permissions, Previleges
+Securities
+
+
+Logging
+
+Difference between:
+					Merge
+					Rebase
+					Graft
+
+
+
+-----------------------------
+Rest services that accept multi-part/form-data - only string can be send
