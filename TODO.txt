@@ -1,43 +1,36 @@
+Java Basics
+==================================================
 Collections
 Iterator
 StringsUtil
-
 Exception Handling
-
-Rest
-Soap
-
 Seialization
+Logging
+Caching
 
-Use of:
-    Wireshark
-    TCPMon
-	Mitmproxy
-	
-	
-	
+
+
+Java Advance
+==================================================
+Securities: Roles, Permissions, Previleges
+OAuth
+Synchronous/ Asynchronous calls
 Clustering
 
 
-Roles, Permissions, Previleges
-Securities
 
-Synchronous/ Asynchronous calls
-
-
-Logging
-
-Difference between:
-					Merge
-					Rebase
-					Graft
-					
-
-OAuth
-
+Web Services
+==================================================
+Rest
+Soap
 Spring Rest Client
+					https://www.baeldung.com/rest-template
+					https://spring.io/guides/gs/consuming-rest/
 
 
 
------------------------------
-Rest services that accept multi-part/form-data - only string can be send
+Useful Tools
+==================================================
+Wireshark
+TCPMon
+Mitmproxy
