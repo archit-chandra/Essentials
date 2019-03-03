@@ -1,0 +1,20 @@
+1.
+Difference between:
+					Merge
+					Rebase
+					Graft
+					
+					
+					
+2.
+Difference between:
+					CRUDRepository
+					JPARepository
+					
+https://stackoverflow.com/questions/14014086/what-is-difference-between-crudrepository-and-jparepository-interfaces-in-spring
+
+
+
+3. Why use Iterable<>? Advantage?
+
+https://www.quora.com/When-should-I-use-Iterable-vs-Collection-in-Java-What-are-pros-and-cons-of-both
