@@ -29,8 +29,15 @@ Spring Rest Client
 
 
 
-Useful Tools
+Useful Tools - Network
 ==================================================
 Wireshark
 TCPMon
 Mitmproxy
+
+
+
+Useful Tools - Building
+==================================================
+Maven
+Gradle
