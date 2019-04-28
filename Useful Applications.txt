@@ -2,6 +2,14 @@ Essentials
 ================================================================
 JDK
 IDE (Eclipse, IntelliJ)
+						Plugins:
+						1. Save Actions
+						2. SonarLint
+						3. Lombok 
+						4. Prettier
+						5. Axis TCP Monitor Plugin
+						6. Atom Material Icon
+						
 
 
 Windows - Essentials
