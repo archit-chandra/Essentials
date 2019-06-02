@@ -25,6 +25,7 @@ Rest
 Soap
 Spring Rest Client
 					https://www.baeldung.com/rest-template
+					https://github.com/spring-framework-guru/sfg-blog-posts/tree/master/resttemplate
 					https://spring.io/guides/gs/consuming-rest/
 
 
@@ -41,3 +42,11 @@ Useful Tools - Building
 ==================================================
 Maven
 Gradle
+
+
+
+Useful Technologies (development)
+==================================================
+Docker
+KiteMatic
+
